@@ -27,11 +27,14 @@ get请求：localhost:8088/interview/user/users
 "name": "Dolly"
 }
 ]
+
 添加用户
 post请求：localhost:8088/interview/user/users
-返回：
+
+
 通过id获取用户信息
 get请求： localhost:8088/interview/user/users/1
+
 更新用户
 put请求： localhost:8088/interview/user/users/1
 参数：{
@@ -40,6 +43,7 @@ put请求： localhost:8088/interview/user/users/1
 "password": null,
 "name": "Carl222"
 }
+
 删除用户
 delete请求：localhost:8088/interview/user/users/1
 
